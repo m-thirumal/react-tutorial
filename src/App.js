@@ -3,6 +3,7 @@ import './App.css';
 import Welcome  from './component/Welcome';
 import Welcome1 from './component/Welcome1';
 import WelcomeClassComponent from './component/WelcomeClassComponent';
+import {FirstComponent, SecondComponent} from './component/MultipleComponent';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Welcome name = "Thirumal"/>
       <Welcome1 name = "Tamil Vendhan"/>
       <WelcomeClassComponent name = "Class Component"/>
+      <FirstComponent/> 
+      <SecondComponent/>
     </div>
   );
 }
