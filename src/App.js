@@ -4,6 +4,8 @@ import Welcome  from './component/Welcome';
 import Welcome1 from './component/Welcome1';
 import WelcomeClassComponent from './component/WelcomeClassComponent';
 import {FirstComponent, SecondComponent} from './component/MultipleComponent';
+import ListExample from './component/ListExample';
+import ListApiExample from './component/ListApiExample';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <WelcomeClassComponent name = "Class Component"/>
       <FirstComponent/> 
       <SecondComponent/>
+      <ListExample/>
+      <ListApiExample/>
     </div>
   );
 }
